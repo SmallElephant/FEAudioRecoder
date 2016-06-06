@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		A816E5CE1CF2AC1C00EB5335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5CD1CF2AC1C00EB5335 /* main.m */; };
 		A816E5D11CF2AC1C00EB5335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5D01CF2AC1C00EB5335 /* AppDelegate.m */; };
-		A816E5D41CF2AC1C00EB5335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5D31CF2AC1C00EB5335 /* ViewController.m */; };
+		A816E5D41CF2AC1C00EB5335 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5D31CF2AC1C00EB5335 /* MainViewController.m */; };
 		A816E5D71CF2AC1C00EB5335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A816E5D51CF2AC1C00EB5335 /* Main.storyboard */; };
 		A816E5D91CF2AC1C00EB5335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A816E5D81CF2AC1C00EB5335 /* Assets.xcassets */; };
 		A816E5DC1CF2AC1C00EB5335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A816E5DA1CF2AC1C00EB5335 /* LaunchScreen.storyboard */; };
 		A816E5E71CF2AC1C00EB5335 /* FEAudioRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5E61CF2AC1C00EB5335 /* FEAudioRecordTests.m */; };
 		A816E5F21CF2AC1C00EB5335 /* FEAudioRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816E5F11CF2AC1C00EB5335 /* FEAudioRecordUITests.m */; };
+		A820B41F1CF451E4007E3813 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A820B41E1CF451E4007E3813 /* test.mp3 */; };
+		A820B4201CF451E4007E3813 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A820B41E1CF451E4007E3813 /* test.mp3 */; };
+		A8C1B7E41CF468C40035DA53 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C1B7E31CF468C40035DA53 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,8 @@
 		A816E5CD1CF2AC1C00EB5335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A816E5CF1CF2AC1C00EB5335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A816E5D01CF2AC1C00EB5335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A816E5D21CF2AC1C00EB5335 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A816E5D31CF2AC1C00EB5335 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A816E5D21CF2AC1C00EB5335 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A816E5D31CF2AC1C00EB5335 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A816E5D61CF2AC1C00EB5335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A816E5D81CF2AC1C00EB5335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A816E5DB1CF2AC1C00EB5335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		A816E5ED1CF2AC1C00EB5335 /* FEAudioRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEAudioRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816E5F11CF2AC1C00EB5335 /* FEAudioRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEAudioRecordUITests.m; sourceTree = "<group>"; };
 		A816E5F31CF2AC1C00EB5335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A820B41E1CF451E4007E3813 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		A8C1B7E21CF468C40035DA53 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A8C1B7E31CF468C40035DA53 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +107,18 @@
 		A816E5CB1CF2AC1C00EB5335 /* FEAudioRecord */ = {
 			isa = PBXGroup;
 			children = (
+				A820B41E1CF451E4007E3813 /* test.mp3 */,
 				A816E5CF1CF2AC1C00EB5335 /* AppDelegate.h */,
 				A816E5D01CF2AC1C00EB5335 /* AppDelegate.m */,
-				A816E5D21CF2AC1C00EB5335 /* ViewController.h */,
-				A816E5D31CF2AC1C00EB5335 /* ViewController.m */,
+				A816E5D21CF2AC1C00EB5335 /* MainViewController.h */,
+				A816E5D31CF2AC1C00EB5335 /* MainViewController.m */,
 				A816E5D51CF2AC1C00EB5335 /* Main.storyboard */,
 				A816E5D81CF2AC1C00EB5335 /* Assets.xcassets */,
 				A816E5DA1CF2AC1C00EB5335 /* LaunchScreen.storyboard */,
 				A816E5DD1CF2AC1C00EB5335 /* Info.plist */,
 				A816E5CC1CF2AC1C00EB5335 /* Supporting Files */,
+				A8C1B7E21CF468C40035DA53 /* TestViewController.h */,
+				A8C1B7E31CF468C40035DA53 /* TestViewController.m */,
 			);
 			path = FEAudioRecord;
 			sourceTree = "<group>";
@@ -245,6 +254,7 @@
 			files = (
 				A816E5DC1CF2AC1C00EB5335 /* LaunchScreen.storyboard in Resources */,
 				A816E5D91CF2AC1C00EB5335 /* Assets.xcassets in Resources */,
+				A820B41F1CF451E4007E3813 /* test.mp3 in Resources */,
 				A816E5D71CF2AC1C00EB5335 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A820B4201CF451E4007E3813 /* test.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A816E5D41CF2AC1C00EB5335 /* ViewController.m in Sources */,
+				A816E5D41CF2AC1C00EB5335 /* MainViewController.m in Sources */,
 				A816E5D11CF2AC1C00EB5335 /* AppDelegate.m in Sources */,
+				A8C1B7E41CF468C40035DA53 /* TestViewController.m in Sources */,
 				A816E5CE1CF2AC1C00EB5335 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,9 +426,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FEAudioRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEAudioRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkmate.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7860769e-f377-46d8-8343-12caf9c536da";
 			};
 			name = Debug;
 		};
@@ -425,9 +439,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FEAudioRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEAudioRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.talkmate.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7860769e-f377-46d8-8343-12caf9c536da";
 			};
 			name = Release;
 		};
@@ -496,6 +512,7 @@
 				A816E5F81CF2AC1C00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A816E5F91CF2AC1C00EB5335 /* Build configuration list for PBXNativeTarget "FEAudioRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				A816E5FB1CF2AC1C00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A816E5FC1CF2AC1C00EB5335 /* Build configuration list for PBXNativeTarget "FEAudioRecordUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				A816E5FE1CF2AC1C00EB5335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
